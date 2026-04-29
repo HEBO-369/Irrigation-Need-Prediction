@@ -9,6 +9,14 @@ A machine learning web application built with Streamlit that helps farmers estim
 *   **Model Options:** Choose between XGBoost (recommended), Neural Network, and Linear Regression models.
 *   **Dashboard Snapshot:** View quick statistics about model performance and feature importance.
 
+## Peak Model Accuracy: **98.43%**
+### Dataset Overview
+The models powering this application were trained and evaluated using the **[Kaggle Playground Series - S6E4 Dataset](https://www.kaggle.com/competitions/playground-series-s6e4/overview)**. 
+
+This dataset focuses on effective water management and contains comprehensive records of environmental and soil conditions to accurately predict the *Irrigation Need* category. 
+
+While the initial baseline goal for this task was to achieve a 90% accuracy threshold , through extensive exploratory data analysis, rigorous feature engineering, and advanced model tuning, the final **XGBoost** model successfully shattered that goal, achieving an outstanding peak test accuracy of **98.43%**.
+
 ## How to Run the App
 
 1.  **Install Requirements:** Make sure you have Python installed. You will need `streamlit`, `pandas`, `scikit-learn`, and `xgboost`.
